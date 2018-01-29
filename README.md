@@ -1,2 +1,2 @@
 # Real-Python
-Assignements from Real Python tutorial
+Assignements from Python tutorials

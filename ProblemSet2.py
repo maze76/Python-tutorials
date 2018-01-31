@@ -1,5 +1,7 @@
 # -ProblemSet2.py *- coding: utf-8 -*-
 """
+Coursera: Python Programming A Concise Introduction - Wesleyan University - Problem set 2 - Lists
+
 Each problem will be a function to write. 
     
 Remember that you can execute just the code between the #%% signs by clicking

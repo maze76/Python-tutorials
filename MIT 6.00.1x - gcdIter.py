@@ -59,4 +59,25 @@ def gcdIter(a, b):
                 guess -= 1
             
 
-print("Result is: ", gcdIter(8, 4))
+print("Result is: ", gcdIter(1071, 462))
+
+
+#%%
+
+#solution with the recursion instead of iteration.
+
+def gcdRecur(a, b):
+    '''
+    a, b: positive integers
+    
+    returns: a positive integer, the greatest common divisor of a & b.
+    '''
+    
+    if b == 0:
+        return a
+    else:
+        return gcdRecur(b, a % b)
+    
+print("Result is: ", gcdRecur(9,12))
+
+#%%
